@@ -1,0 +1,255 @@
+
+@media only screen and (max-width: 2500px) {
+  .bl-main .it-title:after {
+    border-bottom: 200px solid #111;
+    border-left: 350px solid transparent;
+  }
+  .it-title h2 {
+    margin: 0 60px 25px 0;
+    font-size: 36px;
+  }
+  .item.isotope-item {
+    width: 33%;
+  }
+  .title-page {
+    text-align: left;
+    margin-top: 20px;
+  }
+  .book-img, .work-box-txt2, .work-box-txt, .my-skill {
+    width: 100%;
+  }
+  .my-skill {
+    margin-top: 20px;
+  }
+  .bt-know .book-img {
+    display: none;
+  }
+  .bt-know .book-img.bk-device {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  #startSkill .col-md-4 {
+    height: 138px;
+  }
+  .experiences1{
+    height:260px;
+  }
+
+  .experiences2 {
+    height:260px;
+  }
+
+  .textwithimage li {
+    padding-right: 15px;
+  }
+
+}
+@media only screen and (max-width: 992px) {
+  .blog-right-column {
+    padding-left: 0px;
+  }
+  .book-img .big-desc {
+    margin-right: 10px;
+    font-size: 40px;
+  }
+  /*.book-img .big-desc2 {
+    font-size: 40px;
+  }*/
+  #uxmethod {
+    border: 0;
+    padding: 0；
+  }
+  #uxmethod p {
+    display: inline-block;
+    width: 22%;
+  }
+  .item.isotope-item {
+    width: 49%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .container {
+    width: auto;
+  }
+  .about-desc {
+    margin-top: 30px;
+  }
+  .it-title h2 {
+    font-size: 36px;
+  }
+  .copyright {
+    position: relative;
+  }
+  .img-me {
+    padding-right: 0;
+    text-align: center;
+  }
+  .img-me img {
+    width: 50%;
+  }
+  .laptop-img {
+    display: none;
+  }
+  .laptop-img-for-device {
+    display: block;
+    margin-top: 80px;
+  }
+  .my-skill {
+    padding-left: 0;
+  }
+  .experiences {
+    padding: 80px 15px 0px 0;
+  }
+  .experiences2 {
+    padding: 0px 0 40px 0px;
+  }
+  .portfolio .item {
+    width: 49%;
+  }
+  .bl-main > section:nth-child(4) {
+    background-position: center center;
+  }
+  #message {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 740px) and (orientation: landscape) {
+  .bl-main .it-title:after {
+    border-bottom: 120px solid #111;
+    border-left: 250px solid transparent;
+  }
+  .it-title h2 {
+    margin: 0 20px 20px 0;
+  }
+  .effect-bubba .home-border::before, .effect-bubba .home-border::after {
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+  }
+  dl.group {
+    z-index: 9999;
+    position: absolute;
+  }
+  .group ul.filter {
+    padding: 0;
+  }
+  .blog-img, #soundcloud_widget, .col-video {
+    width: 100%;
+  }
+  .contact .c-info {
+    text-align: left;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    padding: 0;
+  }
+  #uxmethod p {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 670px) and (orientation: landscape) {
+  .bl-main .it-title:after {
+    border-bottom: 100px solid #111;
+    border-left: 200px solid transparent;
+  }
+  .it-title h2 {
+    margin: 0 20px 20px 0;
+    font-size: 36px;
+  }
+  #uxmethod p {
+    width: 33%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .bl-main .it-title:after {
+    border-bottom: 100px solid #111;
+    border-left: 150px solid transparent;
+  }
+  .it-title h2 {
+    margin: 0 20px 18px 0;
+    font-size: 24px;
+    /*letter-spacing: 5px;*/
+  }
+  .content-txt-work {
+    margin-bottom: -6px;
+  }
+  .content-txt-work .title-page h2 {
+    font-size: 30px;
+  }
+  .title-page h2 {
+    margin: 0;
+    letter-spacing: 1px;
+  }
+  .bl-content p.nm-name {
+    font-size: 28px;
+    font-weight: 800;
+  }
+  .about-data {
+    padding: 10px 0 10px 10px;
+    margin: 20px 0;
+  }
+  .data-box, .about-desc {
+    padding-right: 0;
+  }
+  .portfolio .item {
+    width: 100%;
+    padding: 0px 0 0px 1px;
+    margin-top: 30px;
+  }
+  .bl-content, div.bl-panel-items > div > div {
+    padding: 20px;
+  }
+  .cl-effect-11 a {
+    line-height: 26px;
+    margin-right: 10px;
+    font-size: 11px;
+  }
+  dl.group {
+    z-index: 9999;
+    position: absolute;
+  }
+  .cl-effect-11 a::before {
+    line-height: 15px;
+  }
+  .group ul.filter {
+    padding: 0;
+  }
+  .effect-bubba .home-border::before, .effect-bubba .home-border::after {
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+  }
+  .blog-img, #soundcloud_widget, .col-video {
+    width: 100%;
+  }
+  .contact .c-info {
+    text-align: left;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    padding: 0;
+  }
+  .bl-content .contact p {
+    font-size: 11px;
+  }
+  #contact_form .col-md-6 {
+    padding-left: 0;
+  }
+  #uxmethod{
+    padding-right: 0;
+  }
+  #uxmethod p {
+    width: 49%;
+  }
+  #RUVideo {
+    width:280px;
+    height:auto;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .bl-box h2 {
+    font-size: 13px;
+    padding: 15px;
+  }
+}
