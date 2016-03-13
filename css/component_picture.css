@@ -1998,3 +1998,7 @@ position: static !important;
 .imgdiv{
   text-align: center;
 }
+
+.large-img{
+  padding: 40px 0;
+}
