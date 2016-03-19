@@ -1794,6 +1794,7 @@ section.bl-expand .bl-content, section.bl-expand .bl-icon-close {
 
 
 h4 {
+  margin-bottom: 30px;
   text-align: center;
   font-size: 30px;
   line-height: 36px;
@@ -1939,9 +1940,9 @@ h5{
 .brief{
   padding: 10px 10%;
   height:400px;
-  background-color: #f9f9f9;
+  background: url("../images/sos.png") repeat;
   display:block;
- overflow:auto;
+  overflow:auto;
 }
 .brief ul{
   list-style: none;
@@ -1963,17 +1964,22 @@ h5{
 	width: 100%
 }
 
+.whitebg span{
+  color:#2cbebc;
+  font-weight: bold;
+}
+
 .chiblue{
  background-color: #55d2fd;
  padding: 0 10%;
 }
 
-/*.parallax {
+.parallax {
   position:static;
   display:block;
   background-position:50% 50%;
   margin:0;
-  background-color: #000000;
+  /*background-color: #000000;*/
  background-repeat:repeat;
  background-size: cover;
  -webkit-background-size: cover !important;
@@ -1982,7 +1988,7 @@ h5{
 background-size: cover;
 background-attachment: fixed !important;
 position: static !important;
-}*/
+}
 .parallax h5,p{
   color:white;
 }
@@ -2001,4 +2007,8 @@ position: static !important;
 
 .large-img{
   padding: 40px 0;
+}
+.lightbg{
+ background-color: #e9f0f5;
+ padding-top: 0;
 }
