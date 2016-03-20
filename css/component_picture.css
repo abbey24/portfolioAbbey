@@ -340,7 +340,7 @@ section.bl-expand .bl-content {
   text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1), 6px 14px 5px rgba(0, 0, 0, 0.15), 0px 14px 12px rgba(0, 0, 0, 0.1), 0px 24px 20px rgba(0, 0, 0, 0.1);
 }
 .title-page {
-  text-align: right;
+  text-align: left;
   margin-top: 20px;
 }
 
@@ -1796,7 +1796,7 @@ section.bl-expand .bl-content, section.bl-expand .bl-icon-close {
 h4 {
   margin-bottom: 30px;
   text-align: center;
-  font-size: 30px;
+  font-size: 36px;
   line-height: 36px;
   color: #2cbebc;
   margin-top: 30px;
@@ -1916,6 +1916,15 @@ line-height: 24px;
   background: url("../images/chipanel.jpg") center top no-repeat;
   background-size: 100% auto;
 }
+.bl-panel-items > div[data-panel="panel-10"] {
+  background: url("../images/OERhead.jpg") center top no-repeat;
+  background-size: 100% auto;
+}
+.bl-panel-items > div[data-panel="panel-LHS-J"] {
+  background: url("../images/LHShead.jpg") center top no-repeat;
+  background-size: 100% auto;
+}
+
 
 .quote{
   float:left;
@@ -1962,6 +1971,10 @@ h5{
   height:auto;
   overflow: auto;
 	width: 100%
+}
+
+.whitebg > div{
+  padding:0;
 }
 
 .whitebg span{
